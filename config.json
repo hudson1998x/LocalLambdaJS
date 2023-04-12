@@ -1,0 +1,14 @@
+{
+    "crossOrigin": {
+        "enabled": true , 
+        "origins": [
+            "localhost:3000"
+        ], 
+        "methods": [
+            "GET" , "POST" , "OPTIONS"
+        ]
+    } , 
+    "server": {
+        "httpPort": 8000
+    }
+}

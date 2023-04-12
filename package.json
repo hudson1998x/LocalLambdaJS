@@ -1,0 +1,24 @@
+{
+  "name": "blank-server-template",
+  "version": "1.0.0",
+  "description": "A Hybrid AWS Lambda/HTTP Server, use HTTP Server locally, and AWS lambda for deployment",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js", 
+    "unit-test": "node tests/all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "Hybrid",
+    "AWS",
+    "Lambda"
+  ],
+  "author": "John Hudson",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
